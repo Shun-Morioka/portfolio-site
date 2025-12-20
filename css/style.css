@@ -216,6 +216,22 @@ li {
 }
 
 /*--------------------------------
+ Profile
+---------------------------------*/
+.profile-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+
+}
+
+.profile-img {
+  width: 100px;
+  transform: scale(-1, 1);
+    flex-shrink: 0;
+}
+/*--------------------------------
  Contact
 ---------------------------------*/
 .contact-item:not(:last-child) {
