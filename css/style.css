@@ -125,13 +125,13 @@ li {
 .split-body {
   width: 50%;
   padding-right: 3%;
-  padding-left: 10%;
+  padding-left: 6%;
 }
 
 .split-img {
   width: 50%;
   height: 95vh;
-  background-image: url(../img/mv.jpg);
+  background: linear-gradient(to left , transparent 0% , transparent 80% , #fff 100%) , url(../img/portfolio-mv_pc.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -215,6 +215,22 @@ li {
   margin-bottom: 3px;
 }
 
+/*--------------------------------
+ Profile
+---------------------------------*/
+.profile-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+
+}
+
+.profile-img {
+  width: 100px;
+  transform: scale(-1, 1);
+    flex-shrink: 0;
+}
 /*--------------------------------
  Contact
 ---------------------------------*/
@@ -360,7 +376,7 @@ li {
     width: 100%;
     height: 67vh;
     margin-bottom: 20px;
-    background-image: url(../img/sp_mv.jpg);
+    background-image: url(../img/portfolio-mv_sp.png);
   }
 
   .split-title {
